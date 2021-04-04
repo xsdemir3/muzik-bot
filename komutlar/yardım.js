@@ -15,7 +15,6 @@ let yardım = new Discord.MessageEmbed()
  `)
 .setImage("https://cdn.discordapp.com/attachments/827514079391645696/828260894147739698/SL_x.gif")
 .setThumbnail(client.user.avatarURL())
-.setFooter('Altyapı ve destek sunucumuz için !destek')
  message.channel.send(yardım) 
 
   };
