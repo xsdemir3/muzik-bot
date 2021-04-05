@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const proton = require("proton-io")
-const db = require("quick.db")
+const db = require("wio.db")
 const ayarlar = require("./ayarlar.json")
 
 const { Player } = require("discord-music-player")
